@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.966) !important;
+}
+
+/*-------------- Navbar --------------*/
+header {
+    background-color: black;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#titnav:hover {
+    color: white;
+} 
+header img {
+    width: 80px;
+    margin-right: 10px;
+}
+header a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+#ejercicios a {
+    font-size: medium;
+    margin-left: 20px;
+}
+#ejercicios a:hover {
+    color: gold;
+}
+#ejercicio2 {
+    color: gold;
+    font-size: larger !important;
+}
+
+
+
+/*-------------- Contents --------------*/
+#titulo {
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+    margin-top: 1%;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+/*-------------- Footer --------------*/
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#fpart1 {
+    color: lightgray;
+    margin-top: 15px;
+}
+#fpart1 h3 {
+    font-family: 'Rubik Distressed';
+}
+#fpart2 a {
+    text-decoration: none;
+    font-size: 200%;
+    color: gray;
+    margin: 10px;
+}
+#fpart2 a:hover {
+    color: white;
+}

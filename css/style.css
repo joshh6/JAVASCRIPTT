@@ -1,0 +1,250 @@
+body {
+    min-height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------- Navbar --------------*/
+header {
+    background-color: black;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#titnav:hover {
+    color: white;
+} 
+header img {
+    width: 80px;
+    margin-right: 10px;
+}
+header a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+#ejercicios a {
+    font-size: medium;
+    margin-left: 20px;
+}
+#ejercicios a:hover {
+    color: gold;
+}
+
+
+
+/*-------------- Contents --------------*/
+main {
+    font-family: josefin sans;
+}
+.titulo {
+    background-color: black;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 120px;
+    width: max-content;
+    padding: 0 2%;
+    margin: 0 0 5% 0;
+    height: 155px;
+    font-weight: bold;
+    float: left;
+    border-radius: 5px;
+}
+.texto {
+    float: left;
+    font-size: 125%;
+    letter-spacing: -0.5px;
+    margin: 5px 10px;
+    animation-name: texto;
+    animation-duration: 1.5s;
+    color: rgb(83, 60, 0);
+}
+@keyframes texto {
+    0% {
+        color: transparent;
+    }
+}
+
+
+#historia {
+    text-align: justify;
+    height: 1000px;
+    padding: 60px 0 80px 0;
+    background-color: rgb(233, 199, 4);
+}
+#izq {
+    float: left;
+    width: 48%;
+}
+#histImg {
+    float: right;
+    width: 50%;
+    margin: 0 0 0 20px;
+}
+#histImg img {
+    width: 650px;
+    border-radius: 5px;
+    border: 5px solid;
+}
+#titHistoria {
+    animation-name: titHistoria;
+    animation-duration: 0.7s;
+}
+@keyframes titHistoria {
+    0% {
+        translate: -50%;
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+}
+#histImg {
+    animation-name: imgHistoria;
+    animation-duration: 0.7s;
+}
+@keyframes imgHistoria {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+}
+
+
+#creador {
+    text-align: justify;
+    height: 1320px;
+    padding: 100px 0;
+}
+#creaImg {
+    float: right;
+    width: 50%;
+    position: relative;
+    z-index: -1;
+    
+}
+#creaImg img {
+    width: 700px;
+    border-radius: 5px;
+}
+@keyframes titCreador {
+    0% {
+        transform: translate(40%);
+        opacity: 0%;
+    }
+}
+@keyframes imgCreador {
+    0% {
+        transform: translateY(30%);
+        opacity: 0%;
+    }
+}
+
+
+#guia {
+    text-align: justify;
+    background-color: rgb(233, 199, 4);
+    padding: 100px 0;
+    height: 1050px;
+}
+#titGuia {
+    background-color: black;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 120px;
+    width: max-content;
+    padding: 2% 2% 0 2%;
+    margin: 0 0 5% 6.2%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.textguia {
+    font-size: 125%;
+    letter-spacing: -0.5px;
+    color: rgb(83, 60, 0);
+    background-color: gold;
+    padding: 2%;
+    margin: 0 10% 5% 10%;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+    border: 1px solid white;
+}
+.textguia h4 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.349);
+    margin-bottom: 15px;
+}
+#tizq {
+    float: left;
+    width: 37%;
+    margin: 0 0 0 10%;
+    padding: 2% 2% 1% 2%;
+}
+#tder {
+    float: right;
+    width: 37%;
+    margin: 0 10% 0 0;
+    padding: 2% 2% 1% 2%;
+}
+@keyframes titGuia {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-20%);
+    }
+}
+@keyframes textuno {
+    0% {
+        transform: translate(100%);
+        opacity: 0;
+    }
+}
+@keyframes tizq {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+@keyframes tder {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+
+
+/*-------------- Footer --------------*/
+footer {
+    background-color: black;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+#fpart1 {
+    color: lightgray;
+    margin-top: 15px;
+}
+#fpart1 h3 {
+    font-family: 'Rubik Distressed';
+}
+#fpart2 a {
+    text-decoration: none;
+    font-size: 200%;
+    color: gray;
+    margin: 10px;
+}
+#fpart2 a:hover {
+    color: white;
+}
